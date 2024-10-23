@@ -242,9 +242,9 @@ const decrementQuantity = (id) => {
             <p className="mt-2">
               En la mina se encuentran dos tipos de piedras:
               <br />
-              <span className="font-semibold text-yellow-600">Piedra Amarilla:</span> Granulometría de 550 grid.
+              <span className="font-semibold text-yellow-600">Piedra Amarilla:</span> Granulometría de 550 gritz.
               <br />
-              <span className="font-semibold text-gray-600">Piedra Gris:</span> Granulometría de 700 - 1000 grid.
+              <span className="font-semibold text-gray-600">Piedra Gris:</span> Granulometría de 700 - 1000 gritz.
             </p>
           </div>
         </div>
