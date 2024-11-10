@@ -36,7 +36,7 @@ const ProductCard = ({ product, addToCart }) => {
               checked={product.options[index] === selectedOption} // Verificamos si la opción seleccionada es la misma
               onChange={handleOptionChange} 
             />
-            {option.size} {option.color && `- ${option.color}`} - ${option.price}
+            {option.size} {option.color && `- ${option.color}`} - u$s{option.price}
           </label>
         ))}
       </div>
@@ -56,7 +56,7 @@ const ProductCard = ({ product, addToCart }) => {
 
       {/* Precio actualizado y botón agregar */}
       <div className="flex justify-between items-center mt-4">
-        <span className="text-xl font-bold text-blue-600">${selectedOption.price * quantity}</span>
+        <span className="text-xl font-bold text-blue-600">u$s{selectedOption.price * quantity}</span>
         <button
           onClick={() => addToCart(product, selectedOption, quantity)}
           className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-300"
