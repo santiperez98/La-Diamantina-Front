@@ -88,14 +88,14 @@ const productsData = [
     name: 'Bloques 1 cara',
     image: img9,
     options: [
-      { size: '1 kg', price: 2.50 },
+      { size: '1 kg', price: 2.79 },
     ],
   },
   {
     name: 'Bloques 2 caras',
     image: img10,
     options: [
-      { size: '1 kg', price: 3.81 },
+      { size: '1 kg', price: 4.18 },
     ],
   },
   
